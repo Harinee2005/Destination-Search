@@ -1,0 +1,22 @@
+.list-item {
+  list-style-type: none;
+  margin: 5px;
+}
+
+.images {
+  height: 200px;
+  width: 250px;
+}
+
+.description {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .images {
+    height: 200px;
+    width: 300px;
+  }
+}
